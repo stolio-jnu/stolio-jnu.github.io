@@ -23,7 +23,7 @@ galleryItems = {
     links: [
       {
         name: 'Page',
-        href: '#works'
+        href: '##NONE##'
       }
     ]
   }
@@ -37,7 +37,7 @@ function changeSelected (toID) {
   document.getElementById('works__hero-img').src = galleryItems[toID]['imgPath']
   linkTags = ''
   galleryItems[toID]['links'].forEach(element => {
-    linkTags += '<li><a href="'+element['href']+'" target="_blank">' + element['name'] + '</a></li>'
+    linkTags += '<li><a ' + (element['href'] !== '##NONE##' ?  'href="' + element['href'] : '') + '" ' + (element['href'] !== '##NONE##' ? 'target="_blank"' : '') + '>' + element['name'] + '</a></li>'
   });
   document.getElementById('works__info-links-e').innerHTML = linkTags
 }

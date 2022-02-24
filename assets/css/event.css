@@ -1,0 +1,17 @@
+.noti {
+  position: fixed;
+  display: block;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  padding: 20px 0;
+  background-color: #f7eaff;
+  text-align: center;
+  z-index: 1;
+  word-break: keep-all;
+  overflow: hidden;
+}
+.noti p {
+  margin-block-start: .7rem;
+  margin-block-end: .7rem;
+}

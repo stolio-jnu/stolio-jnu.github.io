@@ -1,82 +1,145 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STOLIO - the Chonnam National University Software Club</title>
+  <title>Stolio - that makes story</title>
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/2f0d9a3ff5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/event.css">
 </head>
 <body>
-  <nav class="navigation no-select">
-    <div class="logo">
-      <a href="#"><img src="./assets/img/Logo.svg" alt="logo" class="logo" draggable="false"></a>
-    </div>
-  </nav>
-  <header class="no-select">
-    <div class="wrapper sec flex">
-      <div class="wrapper block">
-        <div class="logo">
-          <img class="logo" src="./assets/img/Logo.svg" draggable="false">
-        </div>
-        <div class="content">
-          <h2 class="highlight">스토리오</h2>
-          <p class="no-bottom-margin">소프트웨어 개발 동아리 @전남대학교 AI융합대학</p>
-          <p class="no-bottom-margin">AI 융합대학 ###호실</p>
-        </div>
+  <header>
+    <div class="home">
+      <div class="home-slg">
+        <a href="#about-us" class="no-deco"><span>STOLIO<br>THAT<br>MAKES<br>STORY</span></a>
+      </div>
+      <div class="home-scroll">
+        <a class="scroll-btn__wrapper no-deco" href="#about-us"><span class="scroll-btn__mouse"></span></a>
       </div>
     </div>
   </header>
-  <section class="top-margin">
-    <div class="wrapper">
-      <div class="wrapper sec block">
-        <div class="content bottom-margin">
-          <p class="no-bottom-margin subtitle">WE MAKE STORY</p>
-          <h2 class="highlight">우리는 이야기를 만듭니다.</h2>
-          <p>
-            스토리오는 2022년 출발하는 소프트웨어 개발 동아리입니다. 새로운 프로그램, 새로운 서비스를 만들어 많은 이야기들을 함께 쌓아나가고자 합니다.
-          </p>
+  <section id="about-us" class="about-us cover wrapper">
+    <div class="about-us__content wrapper__content">
+      <div class="about-us__philo">
+        <div class="about-us__title-our-philosophy wrapper__small-title">
+          Our Philosophy
         </div>
-        <div class="content bottom-margin">
-          <p class="no-bottom-margin subtitle">"Software Tool olevelopment Innovation Organization"</p>
-          <h2 class="highlight">이제 함께 프로그램을 만들어볼까요?</h2>
-          <p>
-            배운 내용으로 실제 서비스를 만들어보는 일은 프로그래밍 공부에 좋은 방법이라고 합니다. "웹", "프로그래밍언어", "인공지능" 등의 내용을 학습하고 우리의 삶을 더 편리하게 만들어 주는 서비스를 만들어 보는 활동을 동아리의 주요 목표로 삼으려고 합니다. (만들다 보면 돈되는 서비스도 나타나지 않을까요?) 어렵게 생각하실 필요 없어요! 이미 시중에 프로젝트 관련 도서가 많이 나와 있는 상태이고, 배우는 입장에서는 그걸 보고 따라하는 것도 많은 도움되리라고 생각됩니다.
-          </p>
+        <div class="about-us__slg">
+          <h2>만들어내지 못할 코드는 없다</h2>
         </div>
-        <div class="content bottom-margin">
-          <p class="no-bottom-margin subtitle">WE NEED YOU!</p>
-          <h2 class="highlight">함께해요!</h2>
-          <p>
-            스토리오는 여러분을 언제나 환영합니다! 우리와 함께 해보지 않을래요?<br>
-            AI융합대학 학생이라면 누구든지 지원할 수 있어요.
-          </p>
-          <p class="apply-submit">
-            <a class="btn color-primary"><i class="fa fas fa-chevron-right inline-left-margin inline-right-margin"></i> 아직 모집 기간이 아니에요.</a>
+      </div>
+      <div class="about-us__detail">
+        <div class="about-us__title-about-us wrapper__small-title">
+          About Us
+        </div>
+        <div class="about-us__desc">
+          <p>Stolio는 2022년 첫 발을 내딛은 전남대학교 AI융합대학의 소프트웨어 개발 동아리입니다.</p>
+          <p>단순히 검은 화면 위에서 작동하는 간단한 프로그램이나 알고리즘 문제 풀이부터, 무언가 멋지고 아름다운 모습의 프로그램, 웹 사이트, 게임들을 만들어나갑니다.</p>
+          <p>시작은 미약하나 전남대학교 학사공지 알림 챗봇 서비스, 알고리즘 스터디를 운영하면서 새로운 것들을 만들어낼 준비를 차근차근 진행하고 있습니다.</p>  
+        </div>
+      </div>
+      <div class="about-us__urls">
+        <!--<div class="about-us__small-title about-us__title-links">
+          Links
+        </div>-->
+        <div class="about-us__links">
+          <ul class="about-us">
+            <li><a href="https://instagram.com/jnu_stolio" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/stolio-jnu" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="works" class="works cover wrapper">
+    <div class="works__content wrapper__content">
+      <div class="works__title-works wrapper__small-title">
+        Works
+      </div>
+      <div class="works__detail">
+        <div class="works__list">
+          <ul id="works__list-e" class="works__list-e">
+            <li id="works__haksa" class="selected" onclick="changeSelected('haksa')">전남대학교 학사공지</li>
+            <li id="works__algo22" onclick="changeSelected('algo22')">2022 알고리즘 스터디</li>
+          </ul>
+        </div>
+        <div class="works__gallery">
+          <div class="works__hero">
+            <img id="works__hero-img" class="works__hero-img" src="./assets/img/works/rssnoti.png" alt="">
+          </div>
+          <div class="works__info">
+            <div id="works__info-init" class="works__info-init">
+              <span id="works__info-title" class="works__info-title">전남대학교 학사공지</span>
+              <span> — </span>
+              <span id="works__info-date" class="works__info-date">Jan 2022</span>
+            </div>
+            <div id="works__info-links" class="works__info-links">
+              <ul id="works__info-links-e" class="works__info-links-e">
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Github</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="join" class="join cover wrapper">
+    <div class="join__divider"></div>
+    <div class="join__content wrapper__content">
+      <div class="join__title-works wrapper__small-title">
+        Join Us
+      </div>
+      <div class="join__detail">
+        <div class="join__article">
+          <p>Stolio는 언제나 여러분을 환영합니다! 우리와 함께하지 않을래요?</p>
+          <p>AI융합대학 학생이라면 누구든지 지원할 수 있어요.</p>
+          <p>ㅤ</p>
+          <p>신청서 접수: 2월 25일 ~ </p>
+          <p>면접 대상 안내: m월 dd일 ~</p>
+          <p>모집 확정: m월 dd일</p>
+          <p style="margin-top: 40px">
+            <a class="btn color-primary" target="_blank" href="https://forms.gle/j5NLqLL6hK471nvr5">
+              동아리 지원서 작성하기
+            </a>
           </p>
         </div>
       </div>
     </div>
   </section>
-  <section class="copy no-select">
-    <div class="wrapper sec flex flex-column">
-      <div class="wrapper flex copy-wrp">
-        <div class="wrapper inline-block copy-div">
-          <p>Stolio</p>
-          <p>광주광역시 북구 용봉로 77<br>전남대학교 AI융합대학</p>
-          <p><a href="mailto:stolio-jnu@protonmail.com" class="no-deco">stolio-jnu@protonmail.com</a></p>
+  <section id="footer" class="footer">
+    <div class="footer__content">
+      <div class="footer__content-wrapper">
+        <div class="footer__overview">
+          <div class="footer__stolio">
+            stolio
+          </div>
+          <div class="address">
+            광주광역시 북구 용봉로 77<br>전남대학교 AI융합대학
+          </div>
         </div>
-        <div class="wrapper inline-block copy-div">
-          <p>회장 | 문성수 <span class="inline-left-margin"></span> / <a href="mailto:anstjdtn7@naver.com" class="no-deco inline-left-margin">anstjdtn7@naver.com</a></p>
-          <p>부회장 | <span>오다영</span> <span class="inline-left-margin">임강범</span></p>
+        <div class="footer__detail">
+          <div class="">
+            회장   / 문성수 (anstjdtn7@naver.com)<br>
+            부회장 / 오다영 임강범
+          </div>
         </div>
-      </div>
-      <div class="wrapper block">
-        <p class="no-margin">&copy; 2022 Powered with ❤️ by Stolio.</p>
       </div>
     </div>
+    <div class="footer__copy">
+      <p>&copy; 2022 Powered with ❤️ by Stolio.</p>
+    </div>
   </section>
+  <div id="noti-overlay" class="noti">
+    <p>
+      <b>거기 누구 없어요? 😲</b> 
+      <span style="margin-right: 5px;">지금 우리와 함께할 분들을 찾고 있어요.</span> 
+      <a href="#join" style="margin-right: 5px;">지원하기</a> 
+      <a onclick="closeOverlay()">닫기</a>
+    </p>
+  </div>
+  <script src="./assets/js/gallery.js"></script>
+  <script src="./assets/js/overlay.js"></script>
 </body>
 </html>

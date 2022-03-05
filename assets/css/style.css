@@ -161,7 +161,7 @@ section.works .works__content .works__detail .works__gallery .works__hero {
     max-height: 400px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   section.works .works__content .works__detail .works__gallery .works__hero {
     display: none;
   }
